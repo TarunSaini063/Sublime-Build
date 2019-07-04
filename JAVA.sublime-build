@@ -1,0 +1,14 @@
+{
+
+"shell_cmd": "javac \"$file\"",
+"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+"selector": "source.java",
+"variants": 
+[
+    {
+        "shell_cmd":"bash -c \"javac $file\" && gnome-terminal -- bash -c \"java $file_base_name ;read\"", 
+        "name": "Run"
+    }
+
+]    
+}
