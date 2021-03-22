@@ -16,7 +16,10 @@ ll invmod(ll a){return power(a,mod-2);}
 int main(void)
 {
 	FIO	
-	
+	int t;
+	cin>>t;
+	while(t--){
+	}
 	return 0;
 }]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
